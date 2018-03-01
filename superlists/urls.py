@@ -20,5 +20,5 @@ from lists import views as lv
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-	url(r'^$', lv.home_page, name='home'),
+    url(r'^$', lv.home_page, name='home'),
 ]
