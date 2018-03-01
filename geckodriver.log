@@ -1,0 +1,16 @@
+1519887021181	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1519887021193	geckodriver	INFO	Listening on 127.0.0.1:52929
+1519887021502	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.uNf9Bn6Fiuiv"
+1519887022765	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Could not get a DXGI adapter
+[GFX1-]: Could not get a DXGI adapter
+[Parent 10876, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Could not get a DXGI adapter
+1519887025792	Marionette	INFO	Listening on port 52935
+1519887026109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519887026214	Marionette	DEBUG	Register listener.js for window 4294967297
+1519887026246	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1519887026285	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1519887026285	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1519887026297	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1519887026473	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
