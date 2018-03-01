@@ -1,8 +1,4 @@
 db.sqlite3
-
-geckodriver.log
-
 geckodriver.exe
-
 chromedriver.exe
 geckodriver.log
