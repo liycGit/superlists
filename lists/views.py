@@ -9,7 +9,14 @@ def home_page():
     pass
 def home_page(request):
     return HttpResponse('<html><title>To-Do lists</title></html>')
-"""
+
 
 def home_page(request):
+    return render(request, 'home.html')
+"""
+	
+def home_page(request):
+    if request.method == 'POST':
+        return HttpResponse(request.POST['item_text'])       
+
     return render(request, 'home.html')
