@@ -21,4 +21,6 @@ from lists import views as lv
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^$', lv.home_page, name='home'),
+	url(r'^lists/the-only-list-in-the-world/$', lv.view_list, name='view_list'),
+	url(r'^lists/new$', lv.new_list, name='view_list'),
 ]
