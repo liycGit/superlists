@@ -4,3 +4,9 @@ chromedriver.exe
 geckodriver.log
 __pycache__
 *.pyc
+lists/migrations/0001_initial.py
+lists/migrations/0002_item_text.py
+lists/__pycache__/tests.cpython-36.pyc
+superlists/__pycache__/settings.cpython-36.pyc
+superlists/__pycache__/urls.cpython-36.pyc
+geckodriver.log
